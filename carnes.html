@@ -1,0 +1,119 @@
+<!--
+Lenguaje de marcas y sistemas de gestión de la información.
+UD2
+Tarea: SITIO WEB
+"En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación."
+Estizen Saavedra Castelo
+29/11/2022
+Autoevaluación 
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Cocina como tu abuela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
+
+<body>
+<!--Se crea el encabezado con dos líneas-->
+<header>
+ <h1>Cocina como tu abuela</h1>
+ <h2>Tiempos modernos, recetas viejunas.</h2>
+ <!--Los botones de navegación se incluyen dentro del encabezado-->
+ <nav>
+  <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="categorias.html">Categorías</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+  </ul>
+ 
+ </nav>
+</header>
+<!-- Se crea cuadro lateral para facilitar maquetado-->
+<aside class="videos">
+  <h2>Vídeos de cocina</h2>
+  <section>
+    <article>
+      <iframe width="400" height="250" src="https://www.youtube.com/embed/jJn-ngkTv0k" title="YouTube video player"  
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+  </section>
+</aside>
+<h3>Carnes</h3>
+<!--Se crea una sección para utilizar flexbox y facilitar el maquetado -->
+<section class="sectioncategoria">
+ 
+ <article class="articlecategoria">
+     <h2><a href= "https://www.directoalpaladar.com/recetas-de-carnes-y-aves/carrilleras-cerdo-al-vino-tinto-receta-para-impresionar-e-impresionarte">
+     Carrillera al vino tinto</a> </h2>
+    <article class="flexingredientes">
+    <img class="IMG1" src="IMG/carrillera.jpg" width="600" height="400" alt="Sukalki"> 
+    <ul class="ingredientes">
+        <li>Carrilleras de cerdo..............6 </li>
+        <li>Cebolla...........................1</li>
+        <li>Dientes de ajo....................2</li>
+        <li>Pimiento rojo.....................1</li>
+        <li>Pimiento verde italiano...........1</li>
+        <li>Zanahoria.........................2</li>
+        <li>Vino tinto de la mejor calidad....500ml</li>
+        <li>Caldo de carne....................500ml</li>
+        <li>Harina de trigo</li>
+        <li>Sal</li>
+        <li>Piumienta negra molida</li>
+        <li>AOVE</li>
+    </ul>
+    </article> 
+     <p class="noticias">Partimos de unas carrilleras sin hueso ni grasa, bien limpias. Podemos pedir a nuestro carnicero que nos las prepare o hacerlo nosotros en casa. 
+        Por lo general se comercializan sin hueso así que, si no nos las limpian en la carnicería, tendremos que retirar los restos de telillas y grasa externa con un cuchillo 
+        afilado.
+        <br>
+        <br>
+        Salpimentamos las carrilleras por ambos lados y las pasamos por harina, sacudiendo entre las manos para retirar el exceso. Calentamos un poco de aceite en una olla a 
+        presión y marcamos las carrilleras a fuego fuerte. Retiramos y reservamos.<a href="carrillera.html"> Leer más...</a></p>
+        
+    
+    <h7>Fuente: Directo al paladar <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/carrilleras-cerdo-al-vino-tinto-receta-para-impresionar-e-impresionarte">Carrilleras.</a></h7>
+ </article>
+
+ <article class="articlecategoria">
+  <h2><a href= "https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-de-sukalki">
+  Sukalki</a> </h2>
+     <article class="flexingredientes">
+     <img class="IMG1" src="IMG/sukalki2.jpg" width="600" height="400" alt="Sukalki"> 
+        <ul class="ingredientes">
+          <li>600 gr. de morcillo de ternera</li>
+          <li>1 cebolla</li>
+          <li>3 patatas</li>
+          <li>150 gr. de zanahorias</li>
+          <li>1 puerro</li>
+          <li>3 pimientos choriceros</li>
+          <li>un litro de caldo de carne</li>
+          <li>AOVE</li>
+          <li>Perejil (opcional)</li>
+          <li>Sal</li>
+          <li>Piumienta negra molida</li>
+        </ul>
+      </article> 
+  <p class="noticias">Cortamos las piezas de morcillo en cuadrados. Calentamos una cazuela con un chorro de aceite. 
+    Salteamos la carne sin salar a fuego fuerte y dejamos que se cocine por todos los lados. Cortamos la cebolla y el puerro en juliana 
+    y las zanahorias en rodajas, y agregamos a la cazuela junto a la carne. Salpimentamos ligeramente y dejamos que se cocine durante 15 minutos.
+   <a href="sukalki.html"> Leer más...</a></p>
+     
+ 
+   <h7>Fuente: Directo al paladar <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-de-sukalk">Sukalki.</a></h7>
+  </article>
+ 
+</section>
+<!--Se crea pie de página para información de autoría -->
+<footer>
+ <p>Estizen Saavedra Castelo</p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!--
+Lenguaje de marcas y sistemas de gestión de la información.
+UD2
+Tarea: SITIO WEB
+"En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación."
+Estizen Saavedra Castelo
+29/11/2022
+Autoevaluación 
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Cocina como tu abuela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
+<body>
+<!--Se crea el encabezado con dos líneas-->
+<header>
+  
+ <h1>Cocina como tu abuela</h1>
+ <h2>Tiempos modernos, recetas viejunas.</h2>
+ <!--Los botones de navegación se incluyen dentro del encabezado-->
+ <nav>
+
+  <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="categorias.html">Categorías</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+  </ul>
+ 
+ </nav>
+</header>
+<!-- Se crea cuadro lateral para facilitar maquetado-->
+<aside class="videos">
+  <h2>Vídeos de cocina</h2>
+  <!--Se crea una secciones para utilizar flexbox y facilitar el maquetado -->
+  <section>
+    <article>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/PqzEdKRfZSg" title="YouTube video player" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+  </section>
+</aside>
+<h3>Postres</h3>
+<section class="sectioncategoria">
+ 
+ <article class="articlecategoria">
+     <h2><a href= "https://www.hogarmania.com/cocina/recetas/postres/goxua-postre-tradicional-vasco-36191.html">
+        Goxua, postre tradicional vasco</a> </h2>
+    <article class="flexingredientes">
+    <img class="IMG1" src="IMG/goxua.jpg" width="600" height="400" alt="Sukalki"> 
+    <ul class="ingredientes">
+        <li>Leche.............................300 ml </li>
+        <li>Azúcar............................60 gr</li>
+        <li>Yemas.............................2</li>
+        <li>Vainilla..........................1/2 vaina</li>
+        <li>Nata..............................200 ml</li>
+        <li>Harina de maíz....................40 gr</li>
+        <li>Huevo.............................1</li>
+    </ul>
+    </article> 
+     <p class="noticias">Para la crema pastelera, pon casi toda la leche (reserva un poco) a cocer junto con la nata
+         y la vaina de vainilla abierta. Deja que hierva.
+        Coloca el azúcar y la harina de maíz refinada en un bol y mezcla. Vierte la leche reservada anteriormente y mezcla 
+        hasta que se diluyan los grumos de harina. Incorpora las yemas y el huevo y bate hasta que quede una masa homogénea.
+        <a href="goxua.html"> Leer más...</a></p>
+        
+    
+    <h7>Fuente: Hogar Manía <a href="https://www.hogarmania.com/cocina/recetas/postres/goxua-postre-tradicional-vasco-36191.html">Goxua.</a></h7>
+ </article>
+
+ <article class="articlecategoria">
+  <h2><a href= "https://www.directoalpaladar.com/postres/banda-de-manzana-y-crema-de-pistachos-receta">
+    Banda de manzana y crema de pistachos</a> </h2>
+ <article class="flexingredientes">
+ <img class="IMG1" src="IMG/bandamanzana.jpg" width="600" height="400" alt="Sukalki"> 
+ <ul class="ingredientes1">
+     <li>Pistachos para la crema de pistachos.........100 g</li>
+     <li>Azúcar para la crema de pistachos............50 g</li>
+     <li>Mantequilla para la crema de pistachos.......50 g</li>
+     <li>Harina de trigo para la crema de pistachos...10 g</li>
+     <li>Huevo para la crema de pistachos.............1</li>
+     <li>Esencia de vainilla un chorrito, para la crema de pistachos</li>
+     <li>Manzana......................................1</li>
+     <li>Hojaldre una lámina</li>
+     <li>Azúcar para la tarta.........................50 g</li>
+     <li>Mantequilla para la tarta....................50 g</li>
+     <li>Huevo para la tarta..........................1</li>
+     <li> Mermelada de albaricoque para barnizar</li>
+ </ul>
+ </article> 
+  <p class="noticias">Con ayuda de un mortero, vamos machacando los pistachos pelados para reducirlos a harina. Mezclamos el huevo 
+    con el azúcar en un bol hasta que blanquee, y vamos añadiendo sucesivamente, la harina de pistacho, la harina de trigo y la mantequilla. 
+    Trabajamos hasta obtener una masa bien espesa.
+   <a href="bandamanzana.html"> Leer más...</a></p>
+     
+ 
+   <h7>Fuente: Directo al paladar <a href="https://www.directoalpaladar.com/postres/banda-de-manzana-y-crema-de-pistachos-receta">Banda de Manzana.</a></h7>
+</article>
+ 
+</section>
+<!--Se crea pie de página para información de autoría -->
+<footer>
+ <p>Estizen Saavedra Castelo</p>
+</footer>
+
+</body>
+</html>
